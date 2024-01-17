@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/spp.dir/src/io/spp.cpp.o -o ../../../output/Release/CppModule/bin/io/spp 

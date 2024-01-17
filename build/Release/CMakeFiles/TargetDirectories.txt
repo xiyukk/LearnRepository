@@ -1,0 +1,9 @@
+/home/ca/Documents/LearnRepository/build/Release/CMakeFiles/edit_cache.dir
+/home/ca/Documents/LearnRepository/build/Release/CMakeFiles/rebuild_cache.dir
+/home/ca/Documents/LearnRepository/build/Release/CModule/CMakeFiles/timers.dir
+/home/ca/Documents/LearnRepository/build/Release/CModule/CMakeFiles/edit_cache.dir
+/home/ca/Documents/LearnRepository/build/Release/CModule/CMakeFiles/rebuild_cache.dir
+/home/ca/Documents/LearnRepository/build/Release/CppModule/CMakeFiles/iop.dir
+/home/ca/Documents/LearnRepository/build/Release/CppModule/CMakeFiles/spp.dir
+/home/ca/Documents/LearnRepository/build/Release/CppModule/CMakeFiles/edit_cache.dir
+/home/ca/Documents/LearnRepository/build/Release/CppModule/CMakeFiles/rebuild_cache.dir

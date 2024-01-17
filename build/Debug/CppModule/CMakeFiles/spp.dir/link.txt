@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/spp.dir/src/dff/spp.cpp.o -o ../../../output/Debug/CppModule/dff/spp 

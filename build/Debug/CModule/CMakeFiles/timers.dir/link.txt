@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/timers.dir/src/time/timers.c.o -o ../../../output/Debug/CModule/time/timers 
