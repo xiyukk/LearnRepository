@@ -1,0 +1,146 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "CModule",
+					"jsonFile" : "directory-CModule-Debug-fd8df7eefcd2ca632cb9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "CModule",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "CppModule",
+					"jsonFile" : "directory-CppModule-Debug-61974d24962ac562e2d9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "CppModule",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "LearnRepository",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "adv_smart::@d941a1e93d390c40a614",
+					"jsonFile" : "target-adv_smart-Debug-5f9b419ba257d6011575.json",
+					"name" : "adv_smart",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "adv_smart_threads::@d941a1e93d390c40a614",
+					"jsonFile" : "target-adv_smart_threads-Debug-cc1a766cac40ca8bbbd8.json",
+					"name" : "adv_smart_threads",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "b_cla::@d941a1e93d390c40a614",
+					"jsonFile" : "target-b_cla-Debug-7f2d80847316e4ea3684.json",
+					"name" : "b_cla",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "b_smart::@d941a1e93d390c40a614",
+					"jsonFile" : "target-b_smart-Debug-2be15d511d7e4f3b1b8f.json",
+					"name" : "b_smart",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "b_template::@d941a1e93d390c40a614",
+					"jsonFile" : "target-b_template-Debug-f1b4305f8171e1f86b93.json",
+					"name" : "b_template",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "threadpool::@d941a1e93d390c40a614",
+					"jsonFile" : "target-threadpool-Debug-8c81b4d6e158a52fea75.json",
+					"name" : "threadpool",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "timers::@0a01af2557bc5b26f6e2",
+					"jsonFile" : "target-timers-Debug-e7c4d86caff7cd7b8226.json",
+					"name" : "timers",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ca/LearnRepository/build",
+		"source" : "/home/ca/LearnRepository"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

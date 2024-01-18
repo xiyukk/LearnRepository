@@ -1,4 +1,4 @@
-# Install script for directory: /home/ca/Documents/LearnRepository
+# Install script for directory: /home/ca/LearnRepository
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ca/Documents/LearnRepository/build/Debug/CModule/cmake_install.cmake")
-  include("/home/ca/Documents/LearnRepository/build/Debug/CppModule/cmake_install.cmake")
+  include("/home/ca/LearnRepository/build/Debug/CModule/cmake_install.cmake")
+  include("/home/ca/LearnRepository/build/Debug/CppModule/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ca/Documents/LearnRepository/build/Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ca/LearnRepository/build/Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

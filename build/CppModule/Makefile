@@ -57,10 +57,10 @@ RM = /usr/share/cmake-3.23.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ca/Documents/LearnRepository
+CMAKE_SOURCE_DIR = /home/ca/LearnRepository
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ca/Documents/LearnRepository/build
+CMAKE_BINARY_DIR = /home/ca/LearnRepository/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ca/Documents/LearnRepository/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ca/Documents/LearnRepository/build/CMakeFiles /home/ca/Documents/LearnRepository/build/CppModule//CMakeFiles/progress.marks
-	cd /home/ca/Documents/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CppModule/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ca/Documents/LearnRepository/build/CMakeFiles 0
+	cd /home/ca/LearnRepository/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ca/LearnRepository/build/CMakeFiles /home/ca/LearnRepository/build/CppModule//CMakeFiles/progress.marks
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CppModule/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ca/LearnRepository/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ca/Documents/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CppModule/clean
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CppModule/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,56 +103,246 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ca/Documents/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CppModule/preinstall
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CppModule/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ca/Documents/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CppModule/preinstall
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CppModule/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ca/Documents/LearnRepository/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ca/LearnRepository/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-CppModule/CMakeFiles/iop.dir/rule:
-	cd /home/ca/Documents/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CppModule/CMakeFiles/iop.dir/rule
-.PHONY : CppModule/CMakeFiles/iop.dir/rule
+CppModule/CMakeFiles/b_cla.dir/rule:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CppModule/CMakeFiles/b_cla.dir/rule
+.PHONY : CppModule/CMakeFiles/b_cla.dir/rule
 
 # Convenience name for target.
-iop: CppModule/CMakeFiles/iop.dir/rule
-.PHONY : iop
+b_cla: CppModule/CMakeFiles/b_cla.dir/rule
+.PHONY : b_cla
 
 # fast build rule for target.
-iop/fast:
-	cd /home/ca/Documents/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/iop.dir/build.make CppModule/CMakeFiles/iop.dir/build
-.PHONY : iop/fast
+b_cla/fast:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/b_cla.dir/build.make CppModule/CMakeFiles/b_cla.dir/build
+.PHONY : b_cla/fast
 
-src/io/iop.o: src/io/iop.cpp.o
-.PHONY : src/io/iop.o
+# Convenience name for target.
+CppModule/CMakeFiles/adv_smart.dir/rule:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CppModule/CMakeFiles/adv_smart.dir/rule
+.PHONY : CppModule/CMakeFiles/adv_smart.dir/rule
+
+# Convenience name for target.
+adv_smart: CppModule/CMakeFiles/adv_smart.dir/rule
+.PHONY : adv_smart
+
+# fast build rule for target.
+adv_smart/fast:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/adv_smart.dir/build.make CppModule/CMakeFiles/adv_smart.dir/build
+.PHONY : adv_smart/fast
+
+# Convenience name for target.
+CppModule/CMakeFiles/adv_smart_threads.dir/rule:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CppModule/CMakeFiles/adv_smart_threads.dir/rule
+.PHONY : CppModule/CMakeFiles/adv_smart_threads.dir/rule
+
+# Convenience name for target.
+adv_smart_threads: CppModule/CMakeFiles/adv_smart_threads.dir/rule
+.PHONY : adv_smart_threads
+
+# fast build rule for target.
+adv_smart_threads/fast:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/adv_smart_threads.dir/build.make CppModule/CMakeFiles/adv_smart_threads.dir/build
+.PHONY : adv_smart_threads/fast
+
+# Convenience name for target.
+CppModule/CMakeFiles/b_smart.dir/rule:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CppModule/CMakeFiles/b_smart.dir/rule
+.PHONY : CppModule/CMakeFiles/b_smart.dir/rule
+
+# Convenience name for target.
+b_smart: CppModule/CMakeFiles/b_smart.dir/rule
+.PHONY : b_smart
+
+# fast build rule for target.
+b_smart/fast:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/b_smart.dir/build.make CppModule/CMakeFiles/b_smart.dir/build
+.PHONY : b_smart/fast
+
+# Convenience name for target.
+CppModule/CMakeFiles/b_template.dir/rule:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CppModule/CMakeFiles/b_template.dir/rule
+.PHONY : CppModule/CMakeFiles/b_template.dir/rule
+
+# Convenience name for target.
+b_template: CppModule/CMakeFiles/b_template.dir/rule
+.PHONY : b_template
+
+# fast build rule for target.
+b_template/fast:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/b_template.dir/build.make CppModule/CMakeFiles/b_template.dir/build
+.PHONY : b_template/fast
+
+# Convenience name for target.
+CppModule/CMakeFiles/threadpool.dir/rule:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CppModule/CMakeFiles/threadpool.dir/rule
+.PHONY : CppModule/CMakeFiles/threadpool.dir/rule
+
+# Convenience name for target.
+threadpool: CppModule/CMakeFiles/threadpool.dir/rule
+.PHONY : threadpool
+
+# fast build rule for target.
+threadpool/fast:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/threadpool.dir/build.make CppModule/CMakeFiles/threadpool.dir/build
+.PHONY : threadpool/fast
+
+src/class/b_cla.o: src/class/b_cla.cpp.o
+.PHONY : src/class/b_cla.o
 
 # target to build an object file
-src/io/iop.cpp.o:
-	cd /home/ca/Documents/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/iop.dir/build.make CppModule/CMakeFiles/iop.dir/src/io/iop.cpp.o
-.PHONY : src/io/iop.cpp.o
+src/class/b_cla.cpp.o:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/b_cla.dir/build.make CppModule/CMakeFiles/b_cla.dir/src/class/b_cla.cpp.o
+.PHONY : src/class/b_cla.cpp.o
 
-src/io/iop.i: src/io/iop.cpp.i
-.PHONY : src/io/iop.i
+src/class/b_cla.i: src/class/b_cla.cpp.i
+.PHONY : src/class/b_cla.i
 
 # target to preprocess a source file
-src/io/iop.cpp.i:
-	cd /home/ca/Documents/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/iop.dir/build.make CppModule/CMakeFiles/iop.dir/src/io/iop.cpp.i
-.PHONY : src/io/iop.cpp.i
+src/class/b_cla.cpp.i:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/b_cla.dir/build.make CppModule/CMakeFiles/b_cla.dir/src/class/b_cla.cpp.i
+.PHONY : src/class/b_cla.cpp.i
 
-src/io/iop.s: src/io/iop.cpp.s
-.PHONY : src/io/iop.s
+src/class/b_cla.s: src/class/b_cla.cpp.s
+.PHONY : src/class/b_cla.s
 
 # target to generate assembly for a file
-src/io/iop.cpp.s:
-	cd /home/ca/Documents/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/iop.dir/build.make CppModule/CMakeFiles/iop.dir/src/io/iop.cpp.s
-.PHONY : src/io/iop.cpp.s
+src/class/b_cla.cpp.s:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/b_cla.dir/build.make CppModule/CMakeFiles/b_cla.dir/src/class/b_cla.cpp.s
+.PHONY : src/class/b_cla.cpp.s
+
+src/smartpointer/adv_smart.o: src/smartpointer/adv_smart.cpp.o
+.PHONY : src/smartpointer/adv_smart.o
+
+# target to build an object file
+src/smartpointer/adv_smart.cpp.o:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/adv_smart.dir/build.make CppModule/CMakeFiles/adv_smart.dir/src/smartpointer/adv_smart.cpp.o
+.PHONY : src/smartpointer/adv_smart.cpp.o
+
+src/smartpointer/adv_smart.i: src/smartpointer/adv_smart.cpp.i
+.PHONY : src/smartpointer/adv_smart.i
+
+# target to preprocess a source file
+src/smartpointer/adv_smart.cpp.i:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/adv_smart.dir/build.make CppModule/CMakeFiles/adv_smart.dir/src/smartpointer/adv_smart.cpp.i
+.PHONY : src/smartpointer/adv_smart.cpp.i
+
+src/smartpointer/adv_smart.s: src/smartpointer/adv_smart.cpp.s
+.PHONY : src/smartpointer/adv_smart.s
+
+# target to generate assembly for a file
+src/smartpointer/adv_smart.cpp.s:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/adv_smart.dir/build.make CppModule/CMakeFiles/adv_smart.dir/src/smartpointer/adv_smart.cpp.s
+.PHONY : src/smartpointer/adv_smart.cpp.s
+
+src/smartpointer/adv_smart_threads.o: src/smartpointer/adv_smart_threads.cpp.o
+.PHONY : src/smartpointer/adv_smart_threads.o
+
+# target to build an object file
+src/smartpointer/adv_smart_threads.cpp.o:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/adv_smart_threads.dir/build.make CppModule/CMakeFiles/adv_smart_threads.dir/src/smartpointer/adv_smart_threads.cpp.o
+.PHONY : src/smartpointer/adv_smart_threads.cpp.o
+
+src/smartpointer/adv_smart_threads.i: src/smartpointer/adv_smart_threads.cpp.i
+.PHONY : src/smartpointer/adv_smart_threads.i
+
+# target to preprocess a source file
+src/smartpointer/adv_smart_threads.cpp.i:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/adv_smart_threads.dir/build.make CppModule/CMakeFiles/adv_smart_threads.dir/src/smartpointer/adv_smart_threads.cpp.i
+.PHONY : src/smartpointer/adv_smart_threads.cpp.i
+
+src/smartpointer/adv_smart_threads.s: src/smartpointer/adv_smart_threads.cpp.s
+.PHONY : src/smartpointer/adv_smart_threads.s
+
+# target to generate assembly for a file
+src/smartpointer/adv_smart_threads.cpp.s:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/adv_smart_threads.dir/build.make CppModule/CMakeFiles/adv_smart_threads.dir/src/smartpointer/adv_smart_threads.cpp.s
+.PHONY : src/smartpointer/adv_smart_threads.cpp.s
+
+src/smartpointer/b_smart.o: src/smartpointer/b_smart.cpp.o
+.PHONY : src/smartpointer/b_smart.o
+
+# target to build an object file
+src/smartpointer/b_smart.cpp.o:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/b_smart.dir/build.make CppModule/CMakeFiles/b_smart.dir/src/smartpointer/b_smart.cpp.o
+.PHONY : src/smartpointer/b_smart.cpp.o
+
+src/smartpointer/b_smart.i: src/smartpointer/b_smart.cpp.i
+.PHONY : src/smartpointer/b_smart.i
+
+# target to preprocess a source file
+src/smartpointer/b_smart.cpp.i:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/b_smart.dir/build.make CppModule/CMakeFiles/b_smart.dir/src/smartpointer/b_smart.cpp.i
+.PHONY : src/smartpointer/b_smart.cpp.i
+
+src/smartpointer/b_smart.s: src/smartpointer/b_smart.cpp.s
+.PHONY : src/smartpointer/b_smart.s
+
+# target to generate assembly for a file
+src/smartpointer/b_smart.cpp.s:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/b_smart.dir/build.make CppModule/CMakeFiles/b_smart.dir/src/smartpointer/b_smart.cpp.s
+.PHONY : src/smartpointer/b_smart.cpp.s
+
+src/templates/b_template.o: src/templates/b_template.cpp.o
+.PHONY : src/templates/b_template.o
+
+# target to build an object file
+src/templates/b_template.cpp.o:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/b_template.dir/build.make CppModule/CMakeFiles/b_template.dir/src/templates/b_template.cpp.o
+.PHONY : src/templates/b_template.cpp.o
+
+src/templates/b_template.i: src/templates/b_template.cpp.i
+.PHONY : src/templates/b_template.i
+
+# target to preprocess a source file
+src/templates/b_template.cpp.i:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/b_template.dir/build.make CppModule/CMakeFiles/b_template.dir/src/templates/b_template.cpp.i
+.PHONY : src/templates/b_template.cpp.i
+
+src/templates/b_template.s: src/templates/b_template.cpp.s
+.PHONY : src/templates/b_template.s
+
+# target to generate assembly for a file
+src/templates/b_template.cpp.s:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/b_template.dir/build.make CppModule/CMakeFiles/b_template.dir/src/templates/b_template.cpp.s
+.PHONY : src/templates/b_template.cpp.s
+
+src/threads/threadpool.o: src/threads/threadpool.cpp.o
+.PHONY : src/threads/threadpool.o
+
+# target to build an object file
+src/threads/threadpool.cpp.o:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/threadpool.dir/build.make CppModule/CMakeFiles/threadpool.dir/src/threads/threadpool.cpp.o
+.PHONY : src/threads/threadpool.cpp.o
+
+src/threads/threadpool.i: src/threads/threadpool.cpp.i
+.PHONY : src/threads/threadpool.i
+
+# target to preprocess a source file
+src/threads/threadpool.cpp.i:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/threadpool.dir/build.make CppModule/CMakeFiles/threadpool.dir/src/threads/threadpool.cpp.i
+.PHONY : src/threads/threadpool.cpp.i
+
+src/threads/threadpool.s: src/threads/threadpool.cpp.s
+.PHONY : src/threads/threadpool.s
+
+# target to generate assembly for a file
+src/threads/threadpool.cpp.s:
+	cd /home/ca/LearnRepository/build && $(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/threadpool.dir/build.make CppModule/CMakeFiles/threadpool.dir/src/threads/threadpool.cpp.s
+.PHONY : src/threads/threadpool.cpp.s
 
 # Help Target
 help:
@@ -162,10 +352,30 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... iop"
-	@echo "... src/io/iop.o"
-	@echo "... src/io/iop.i"
-	@echo "... src/io/iop.s"
+	@echo "... adv_smart"
+	@echo "... adv_smart_threads"
+	@echo "... b_cla"
+	@echo "... b_smart"
+	@echo "... b_template"
+	@echo "... threadpool"
+	@echo "... src/class/b_cla.o"
+	@echo "... src/class/b_cla.i"
+	@echo "... src/class/b_cla.s"
+	@echo "... src/smartpointer/adv_smart.o"
+	@echo "... src/smartpointer/adv_smart.i"
+	@echo "... src/smartpointer/adv_smart.s"
+	@echo "... src/smartpointer/adv_smart_threads.o"
+	@echo "... src/smartpointer/adv_smart_threads.i"
+	@echo "... src/smartpointer/adv_smart_threads.s"
+	@echo "... src/smartpointer/b_smart.o"
+	@echo "... src/smartpointer/b_smart.i"
+	@echo "... src/smartpointer/b_smart.s"
+	@echo "... src/templates/b_template.o"
+	@echo "... src/templates/b_template.i"
+	@echo "... src/templates/b_template.s"
+	@echo "... src/threads/threadpool.o"
+	@echo "... src/threads/threadpool.i"
+	@echo "... src/threads/threadpool.s"
 .PHONY : help
 
 
@@ -177,6 +387,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ca/Documents/LearnRepository/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ca/LearnRepository/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

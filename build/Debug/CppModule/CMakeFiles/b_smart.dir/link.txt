@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/b_smart.dir/src/smartpointer/b_smart.cpp.o -o ../../../output/Debug/CppModule/smartpointer/b_smart  -lpthread 

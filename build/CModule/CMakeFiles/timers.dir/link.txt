@@ -1,1 +1,1 @@
-/usr/bin/cc -O3 -DNDEBUG CMakeFiles/timers.dir/src/time/timers.c.o -o ../../output/Release/CModule/bin/time/timers 
+/usr/bin/clang -g CMakeFiles/timers.dir/src/time/timers.c.o -o ../../output/Debug/CModule/time/timers 

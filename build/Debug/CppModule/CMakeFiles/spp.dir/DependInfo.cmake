@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ca/Documents/LearnRepository/CppModule/src/dff/spp.cpp" "CppModule/CMakeFiles/spp.dir/src/dff/spp.cpp.o" "gcc" "CppModule/CMakeFiles/spp.dir/src/dff/spp.cpp.o.d"
+  "/home/ca/LearnRepository/CppModule/src/dff/spp.cpp" "CppModule/CMakeFiles/spp.dir/src/dff/spp.cpp.o" "gcc" "CppModule/CMakeFiles/spp.dir/src/dff/spp.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/b_template.dir/src/templates/b_template.cpp.o -o ../../../output/Debug/CppModule/templates/b_template  -lpthread 

@@ -57,10 +57,10 @@ RM = /usr/share/cmake-3.23.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ca/Documents/LearnRepository
+CMAKE_SOURCE_DIR = /home/ca/LearnRepository
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ca/Documents/LearnRepository/build
+CMAKE_BINARY_DIR = /home/ca/LearnRepository/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ca/Documents/LearnRepository/build/CMakeFiles /home/ca/Documents/LearnRepository/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ca/LearnRepository/build/CMakeFiles /home/ca/LearnRepository/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ca/Documents/LearnRepository/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ca/LearnRepository/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,17 +130,82 @@ timers/fast:
 .PHONY : timers/fast
 
 #=============================================================================
-# Target rules for targets named iop
+# Target rules for targets named b_cla
 
 # Build rule for target.
-iop: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 iop
-.PHONY : iop
+b_cla: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 b_cla
+.PHONY : b_cla
 
 # fast build rule for target.
-iop/fast:
-	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/iop.dir/build.make CppModule/CMakeFiles/iop.dir/build
-.PHONY : iop/fast
+b_cla/fast:
+	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/b_cla.dir/build.make CppModule/CMakeFiles/b_cla.dir/build
+.PHONY : b_cla/fast
+
+#=============================================================================
+# Target rules for targets named adv_smart
+
+# Build rule for target.
+adv_smart: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 adv_smart
+.PHONY : adv_smart
+
+# fast build rule for target.
+adv_smart/fast:
+	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/adv_smart.dir/build.make CppModule/CMakeFiles/adv_smart.dir/build
+.PHONY : adv_smart/fast
+
+#=============================================================================
+# Target rules for targets named adv_smart_threads
+
+# Build rule for target.
+adv_smart_threads: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 adv_smart_threads
+.PHONY : adv_smart_threads
+
+# fast build rule for target.
+adv_smart_threads/fast:
+	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/adv_smart_threads.dir/build.make CppModule/CMakeFiles/adv_smart_threads.dir/build
+.PHONY : adv_smart_threads/fast
+
+#=============================================================================
+# Target rules for targets named b_smart
+
+# Build rule for target.
+b_smart: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 b_smart
+.PHONY : b_smart
+
+# fast build rule for target.
+b_smart/fast:
+	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/b_smart.dir/build.make CppModule/CMakeFiles/b_smart.dir/build
+.PHONY : b_smart/fast
+
+#=============================================================================
+# Target rules for targets named b_template
+
+# Build rule for target.
+b_template: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 b_template
+.PHONY : b_template
+
+# fast build rule for target.
+b_template/fast:
+	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/b_template.dir/build.make CppModule/CMakeFiles/b_template.dir/build
+.PHONY : b_template/fast
+
+#=============================================================================
+# Target rules for targets named threadpool
+
+# Build rule for target.
+threadpool: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 threadpool
+.PHONY : threadpool
+
+# fast build rule for target.
+threadpool/fast:
+	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/threadpool.dir/build.make CppModule/CMakeFiles/threadpool.dir/build
+.PHONY : threadpool/fast
 
 # Help Target
 help:
@@ -150,7 +215,12 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... iop"
+	@echo "... adv_smart"
+	@echo "... adv_smart_threads"
+	@echo "... b_cla"
+	@echo "... b_smart"
+	@echo "... b_template"
+	@echo "... threadpool"
 	@echo "... timers"
 .PHONY : help
 

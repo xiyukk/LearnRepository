@@ -57,10 +57,10 @@ RM = /usr/share/cmake-3.23.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ca/Documents/LearnRepository
+CMAKE_SOURCE_DIR = /home/ca/LearnRepository
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ca/Documents/LearnRepository/build/Debug
+CMAKE_BINARY_DIR = /home/ca/LearnRepository/build/Debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ca/Documents/LearnRepository/build/Debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/ca/Documents/LearnRepository/build/Debug/CMakeFiles /home/ca/Documents/LearnRepository/build/Debug/CModule//CMakeFiles/progress.marks
-	cd /home/ca/Documents/LearnRepository/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CModule/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ca/Documents/LearnRepository/build/Debug/CMakeFiles 0
+	cd /home/ca/LearnRepository/build/Debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/ca/LearnRepository/build/Debug/CMakeFiles /home/ca/LearnRepository/build/Debug/CModule//CMakeFiles/progress.marks
+	cd /home/ca/LearnRepository/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CModule/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ca/LearnRepository/build/Debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ca/Documents/LearnRepository/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CModule/clean
+	cd /home/ca/LearnRepository/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CModule/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ca/Documents/LearnRepository/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CModule/preinstall
+	cd /home/ca/LearnRepository/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CModule/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ca/Documents/LearnRepository/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CModule/preinstall
+	cd /home/ca/LearnRepository/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CModule/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ca/Documents/LearnRepository/build/Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ca/LearnRepository/build/Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 CModule/CMakeFiles/timers.dir/rule:
-	cd /home/ca/Documents/LearnRepository/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CModule/CMakeFiles/timers.dir/rule
+	cd /home/ca/LearnRepository/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CModule/CMakeFiles/timers.dir/rule
 .PHONY : CModule/CMakeFiles/timers.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ timers: CModule/CMakeFiles/timers.dir/rule
 
 # fast build rule for target.
 timers/fast:
-	cd /home/ca/Documents/LearnRepository/build/Debug && $(MAKE) $(MAKESILENT) -f CModule/CMakeFiles/timers.dir/build.make CModule/CMakeFiles/timers.dir/build
+	cd /home/ca/LearnRepository/build/Debug && $(MAKE) $(MAKESILENT) -f CModule/CMakeFiles/timers.dir/build.make CModule/CMakeFiles/timers.dir/build
 .PHONY : timers/fast
 
 src/time/timers.o: src/time/timers.c.o
@@ -135,7 +135,7 @@ src/time/timers.o: src/time/timers.c.o
 
 # target to build an object file
 src/time/timers.c.o:
-	cd /home/ca/Documents/LearnRepository/build/Debug && $(MAKE) $(MAKESILENT) -f CModule/CMakeFiles/timers.dir/build.make CModule/CMakeFiles/timers.dir/src/time/timers.c.o
+	cd /home/ca/LearnRepository/build/Debug && $(MAKE) $(MAKESILENT) -f CModule/CMakeFiles/timers.dir/build.make CModule/CMakeFiles/timers.dir/src/time/timers.c.o
 .PHONY : src/time/timers.c.o
 
 src/time/timers.i: src/time/timers.c.i
@@ -143,7 +143,7 @@ src/time/timers.i: src/time/timers.c.i
 
 # target to preprocess a source file
 src/time/timers.c.i:
-	cd /home/ca/Documents/LearnRepository/build/Debug && $(MAKE) $(MAKESILENT) -f CModule/CMakeFiles/timers.dir/build.make CModule/CMakeFiles/timers.dir/src/time/timers.c.i
+	cd /home/ca/LearnRepository/build/Debug && $(MAKE) $(MAKESILENT) -f CModule/CMakeFiles/timers.dir/build.make CModule/CMakeFiles/timers.dir/src/time/timers.c.i
 .PHONY : src/time/timers.c.i
 
 src/time/timers.s: src/time/timers.c.s
@@ -151,7 +151,7 @@ src/time/timers.s: src/time/timers.c.s
 
 # target to generate assembly for a file
 src/time/timers.c.s:
-	cd /home/ca/Documents/LearnRepository/build/Debug && $(MAKE) $(MAKESILENT) -f CModule/CMakeFiles/timers.dir/build.make CModule/CMakeFiles/timers.dir/src/time/timers.c.s
+	cd /home/ca/LearnRepository/build/Debug && $(MAKE) $(MAKESILENT) -f CModule/CMakeFiles/timers.dir/build.make CModule/CMakeFiles/timers.dir/src/time/timers.c.s
 .PHONY : src/time/timers.c.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ca/Documents/LearnRepository/build/Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ca/LearnRepository/build/Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

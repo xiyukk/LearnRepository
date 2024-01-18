@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/ca/LearnRepository/build/CModule",
+  "command": "/usr/bin/clang   -g -o CMakeFiles/timers.dir/src/time/timers.c.o -c /home/ca/LearnRepository/CModule/src/time/timers.c",
+  "file": "/home/ca/LearnRepository/CModule/src/time/timers.c"
+},
+{
+  "directory": "/home/ca/LearnRepository/build/CppModule",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -o CMakeFiles/b_cla.dir/src/class/b_cla.cpp.o -c /home/ca/LearnRepository/CppModule/src/class/b_cla.cpp",
+  "file": "/home/ca/LearnRepository/CppModule/src/class/b_cla.cpp"
+},
+{
+  "directory": "/home/ca/LearnRepository/build/CppModule",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -o CMakeFiles/adv_smart.dir/src/smartpointer/adv_smart.cpp.o -c /home/ca/LearnRepository/CppModule/src/smartpointer/adv_smart.cpp",
+  "file": "/home/ca/LearnRepository/CppModule/src/smartpointer/adv_smart.cpp"
+},
+{
+  "directory": "/home/ca/LearnRepository/build/CppModule",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -o CMakeFiles/adv_smart_threads.dir/src/smartpointer/adv_smart_threads.cpp.o -c /home/ca/LearnRepository/CppModule/src/smartpointer/adv_smart_threads.cpp",
+  "file": "/home/ca/LearnRepository/CppModule/src/smartpointer/adv_smart_threads.cpp"
+},
+{
+  "directory": "/home/ca/LearnRepository/build/CppModule",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -o CMakeFiles/b_smart.dir/src/smartpointer/b_smart.cpp.o -c /home/ca/LearnRepository/CppModule/src/smartpointer/b_smart.cpp",
+  "file": "/home/ca/LearnRepository/CppModule/src/smartpointer/b_smart.cpp"
+},
+{
+  "directory": "/home/ca/LearnRepository/build/CppModule",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -o CMakeFiles/b_template.dir/src/templates/b_template.cpp.o -c /home/ca/LearnRepository/CppModule/src/templates/b_template.cpp",
+  "file": "/home/ca/LearnRepository/CppModule/src/templates/b_template.cpp"
+},
+{
+  "directory": "/home/ca/LearnRepository/build/CppModule",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -o CMakeFiles/threadpool.dir/src/threads/threadpool.cpp.o -c /home/ca/LearnRepository/CppModule/src/threads/threadpool.cpp",
+  "file": "/home/ca/LearnRepository/CppModule/src/threads/threadpool.cpp"
+}
+]

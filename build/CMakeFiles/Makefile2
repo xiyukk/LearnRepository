@@ -54,10 +54,10 @@ RM = /usr/share/cmake-3.23.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ca/Documents/LearnRepository
+CMAKE_SOURCE_DIR = /home/ca/LearnRepository
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ca/Documents/LearnRepository/build
+CMAKE_BINARY_DIR = /home/ca/LearnRepository/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -96,7 +96,12 @@ CModule/clean: CModule/CMakeFiles/timers.dir/clean
 # Directory level rules for directory CppModule
 
 # Recursive "all" directory target.
-CppModule/all: CppModule/CMakeFiles/iop.dir/all
+CppModule/all: CppModule/CMakeFiles/b_cla.dir/all
+CppModule/all: CppModule/CMakeFiles/adv_smart.dir/all
+CppModule/all: CppModule/CMakeFiles/adv_smart_threads.dir/all
+CppModule/all: CppModule/CMakeFiles/b_smart.dir/all
+CppModule/all: CppModule/CMakeFiles/b_template.dir/all
+CppModule/all: CppModule/CMakeFiles/threadpool.dir/all
 .PHONY : CppModule/all
 
 # Recursive "preinstall" directory target.
@@ -104,7 +109,12 @@ CppModule/preinstall:
 .PHONY : CppModule/preinstall
 
 # Recursive "clean" directory target.
-CppModule/clean: CppModule/CMakeFiles/iop.dir/clean
+CppModule/clean: CppModule/CMakeFiles/b_cla.dir/clean
+CppModule/clean: CppModule/CMakeFiles/adv_smart.dir/clean
+CppModule/clean: CppModule/CMakeFiles/adv_smart_threads.dir/clean
+CppModule/clean: CppModule/CMakeFiles/b_smart.dir/clean
+CppModule/clean: CppModule/CMakeFiles/b_template.dir/clean
+CppModule/clean: CppModule/CMakeFiles/threadpool.dir/clean
 .PHONY : CppModule/clean
 
 #=============================================================================
@@ -114,14 +124,14 @@ CppModule/clean: CppModule/CMakeFiles/iop.dir/clean
 CModule/CMakeFiles/timers.dir/all:
 	$(MAKE) $(MAKESILENT) -f CModule/CMakeFiles/timers.dir/build.make CModule/CMakeFiles/timers.dir/depend
 	$(MAKE) $(MAKESILENT) -f CModule/CMakeFiles/timers.dir/build.make CModule/CMakeFiles/timers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ca/Documents/LearnRepository/build/CMakeFiles --progress-num=3,4 "Built target timers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ca/LearnRepository/build/CMakeFiles --progress-num=13,14 "Built target timers"
 .PHONY : CModule/CMakeFiles/timers.dir/all
 
 # Build rule for subdir invocation for target.
 CModule/CMakeFiles/timers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ca/Documents/LearnRepository/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ca/LearnRepository/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CModule/CMakeFiles/timers.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ca/Documents/LearnRepository/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ca/LearnRepository/build/CMakeFiles 0
 .PHONY : CModule/CMakeFiles/timers.dir/rule
 
 # Convenience name for target.
@@ -134,30 +144,160 @@ CModule/CMakeFiles/timers.dir/clean:
 .PHONY : CModule/CMakeFiles/timers.dir/clean
 
 #=============================================================================
-# Target rules for target CppModule/CMakeFiles/iop.dir
+# Target rules for target CppModule/CMakeFiles/b_cla.dir
 
 # All Build rule for target.
-CppModule/CMakeFiles/iop.dir/all:
-	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/iop.dir/build.make CppModule/CMakeFiles/iop.dir/depend
-	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/iop.dir/build.make CppModule/CMakeFiles/iop.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ca/Documents/LearnRepository/build/CMakeFiles --progress-num=1,2 "Built target iop"
-.PHONY : CppModule/CMakeFiles/iop.dir/all
+CppModule/CMakeFiles/b_cla.dir/all:
+	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/b_cla.dir/build.make CppModule/CMakeFiles/b_cla.dir/depend
+	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/b_cla.dir/build.make CppModule/CMakeFiles/b_cla.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ca/LearnRepository/build/CMakeFiles --progress-num=5,6 "Built target b_cla"
+.PHONY : CppModule/CMakeFiles/b_cla.dir/all
 
 # Build rule for subdir invocation for target.
-CppModule/CMakeFiles/iop.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ca/Documents/LearnRepository/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CppModule/CMakeFiles/iop.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ca/Documents/LearnRepository/build/CMakeFiles 0
-.PHONY : CppModule/CMakeFiles/iop.dir/rule
+CppModule/CMakeFiles/b_cla.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ca/LearnRepository/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CppModule/CMakeFiles/b_cla.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ca/LearnRepository/build/CMakeFiles 0
+.PHONY : CppModule/CMakeFiles/b_cla.dir/rule
 
 # Convenience name for target.
-iop: CppModule/CMakeFiles/iop.dir/rule
-.PHONY : iop
+b_cla: CppModule/CMakeFiles/b_cla.dir/rule
+.PHONY : b_cla
 
 # clean rule for target.
-CppModule/CMakeFiles/iop.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/iop.dir/build.make CppModule/CMakeFiles/iop.dir/clean
-.PHONY : CppModule/CMakeFiles/iop.dir/clean
+CppModule/CMakeFiles/b_cla.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/b_cla.dir/build.make CppModule/CMakeFiles/b_cla.dir/clean
+.PHONY : CppModule/CMakeFiles/b_cla.dir/clean
+
+#=============================================================================
+# Target rules for target CppModule/CMakeFiles/adv_smart.dir
+
+# All Build rule for target.
+CppModule/CMakeFiles/adv_smart.dir/all:
+	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/adv_smart.dir/build.make CppModule/CMakeFiles/adv_smart.dir/depend
+	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/adv_smart.dir/build.make CppModule/CMakeFiles/adv_smart.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ca/LearnRepository/build/CMakeFiles --progress-num=1,2 "Built target adv_smart"
+.PHONY : CppModule/CMakeFiles/adv_smart.dir/all
+
+# Build rule for subdir invocation for target.
+CppModule/CMakeFiles/adv_smart.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ca/LearnRepository/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CppModule/CMakeFiles/adv_smart.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ca/LearnRepository/build/CMakeFiles 0
+.PHONY : CppModule/CMakeFiles/adv_smart.dir/rule
+
+# Convenience name for target.
+adv_smart: CppModule/CMakeFiles/adv_smart.dir/rule
+.PHONY : adv_smart
+
+# clean rule for target.
+CppModule/CMakeFiles/adv_smart.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/adv_smart.dir/build.make CppModule/CMakeFiles/adv_smart.dir/clean
+.PHONY : CppModule/CMakeFiles/adv_smart.dir/clean
+
+#=============================================================================
+# Target rules for target CppModule/CMakeFiles/adv_smart_threads.dir
+
+# All Build rule for target.
+CppModule/CMakeFiles/adv_smart_threads.dir/all:
+	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/adv_smart_threads.dir/build.make CppModule/CMakeFiles/adv_smart_threads.dir/depend
+	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/adv_smart_threads.dir/build.make CppModule/CMakeFiles/adv_smart_threads.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ca/LearnRepository/build/CMakeFiles --progress-num=3,4 "Built target adv_smart_threads"
+.PHONY : CppModule/CMakeFiles/adv_smart_threads.dir/all
+
+# Build rule for subdir invocation for target.
+CppModule/CMakeFiles/adv_smart_threads.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ca/LearnRepository/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CppModule/CMakeFiles/adv_smart_threads.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ca/LearnRepository/build/CMakeFiles 0
+.PHONY : CppModule/CMakeFiles/adv_smart_threads.dir/rule
+
+# Convenience name for target.
+adv_smart_threads: CppModule/CMakeFiles/adv_smart_threads.dir/rule
+.PHONY : adv_smart_threads
+
+# clean rule for target.
+CppModule/CMakeFiles/adv_smart_threads.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/adv_smart_threads.dir/build.make CppModule/CMakeFiles/adv_smart_threads.dir/clean
+.PHONY : CppModule/CMakeFiles/adv_smart_threads.dir/clean
+
+#=============================================================================
+# Target rules for target CppModule/CMakeFiles/b_smart.dir
+
+# All Build rule for target.
+CppModule/CMakeFiles/b_smart.dir/all:
+	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/b_smart.dir/build.make CppModule/CMakeFiles/b_smart.dir/depend
+	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/b_smart.dir/build.make CppModule/CMakeFiles/b_smart.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ca/LearnRepository/build/CMakeFiles --progress-num=7,8 "Built target b_smart"
+.PHONY : CppModule/CMakeFiles/b_smart.dir/all
+
+# Build rule for subdir invocation for target.
+CppModule/CMakeFiles/b_smart.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ca/LearnRepository/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CppModule/CMakeFiles/b_smart.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ca/LearnRepository/build/CMakeFiles 0
+.PHONY : CppModule/CMakeFiles/b_smart.dir/rule
+
+# Convenience name for target.
+b_smart: CppModule/CMakeFiles/b_smart.dir/rule
+.PHONY : b_smart
+
+# clean rule for target.
+CppModule/CMakeFiles/b_smart.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/b_smart.dir/build.make CppModule/CMakeFiles/b_smart.dir/clean
+.PHONY : CppModule/CMakeFiles/b_smart.dir/clean
+
+#=============================================================================
+# Target rules for target CppModule/CMakeFiles/b_template.dir
+
+# All Build rule for target.
+CppModule/CMakeFiles/b_template.dir/all:
+	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/b_template.dir/build.make CppModule/CMakeFiles/b_template.dir/depend
+	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/b_template.dir/build.make CppModule/CMakeFiles/b_template.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ca/LearnRepository/build/CMakeFiles --progress-num=9,10 "Built target b_template"
+.PHONY : CppModule/CMakeFiles/b_template.dir/all
+
+# Build rule for subdir invocation for target.
+CppModule/CMakeFiles/b_template.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ca/LearnRepository/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CppModule/CMakeFiles/b_template.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ca/LearnRepository/build/CMakeFiles 0
+.PHONY : CppModule/CMakeFiles/b_template.dir/rule
+
+# Convenience name for target.
+b_template: CppModule/CMakeFiles/b_template.dir/rule
+.PHONY : b_template
+
+# clean rule for target.
+CppModule/CMakeFiles/b_template.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/b_template.dir/build.make CppModule/CMakeFiles/b_template.dir/clean
+.PHONY : CppModule/CMakeFiles/b_template.dir/clean
+
+#=============================================================================
+# Target rules for target CppModule/CMakeFiles/threadpool.dir
+
+# All Build rule for target.
+CppModule/CMakeFiles/threadpool.dir/all:
+	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/threadpool.dir/build.make CppModule/CMakeFiles/threadpool.dir/depend
+	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/threadpool.dir/build.make CppModule/CMakeFiles/threadpool.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ca/LearnRepository/build/CMakeFiles --progress-num=11,12 "Built target threadpool"
+.PHONY : CppModule/CMakeFiles/threadpool.dir/all
+
+# Build rule for subdir invocation for target.
+CppModule/CMakeFiles/threadpool.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ca/LearnRepository/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CppModule/CMakeFiles/threadpool.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ca/LearnRepository/build/CMakeFiles 0
+.PHONY : CppModule/CMakeFiles/threadpool.dir/rule
+
+# Convenience name for target.
+threadpool: CppModule/CMakeFiles/threadpool.dir/rule
+.PHONY : threadpool
+
+# clean rule for target.
+CppModule/CMakeFiles/threadpool.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CppModule/CMakeFiles/threadpool.dir/build.make CppModule/CMakeFiles/threadpool.dir/clean
+.PHONY : CppModule/CMakeFiles/threadpool.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

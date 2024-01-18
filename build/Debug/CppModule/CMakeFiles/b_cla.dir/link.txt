@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/b_cla.dir/src/class/b_cla.cpp.o -o ../../../output/Debug/CppModule/class/b_cla  -lpthread 

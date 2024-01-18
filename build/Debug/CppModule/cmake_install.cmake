@@ -1,4 +1,4 @@
-# Install script for directory: /home/ca/Documents/LearnRepository/CppModule
+# Install script for directory: /home/ca/LearnRepository/CppModule
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
